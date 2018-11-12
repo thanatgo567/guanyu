@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'guanyu_Example' do
+  pod 'guanyu', :path => '../'
+
+  target 'guanyu_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
