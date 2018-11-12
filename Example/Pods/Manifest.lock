@@ -1,0 +1,16 @@
+PODS:
+  - guanyu (0.1.0)
+
+DEPENDENCIES:
+  - guanyu (from `../`)
+
+EXTERNAL SOURCES:
+  guanyu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  guanyu: b810ce27d27dd3b492f4a51ffb588272a5016a54
+
+PODFILE CHECKSUM: 686525a2bc58699d1bb32257b1a6afb00c15d9dd
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,22 @@
+{
+  "name": "guanyu",
+  "version": "0.1.0",
+  "summary": "A short description of guanyu.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/thanatgo123@gmail.com/guanyu",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "thanatgo123@gmail.com": "thanaponat123@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/thanatgo123@gmail.com/guanyu.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "guanyu/Classes/**/*"
+}
