@@ -10,6 +10,7 @@
 		1C90DB615B655516153C339ACC1A6AC4 /* guanyu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FD8893F0F753ADD107AA7D93FA1BFD /* guanyu-dummy.m */; };
 		233714E5963F44681FE76FE5D390B7AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		2C731BBE1305182EA082C47788ADD25A /* Pods-guanyu_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8706B178311D01B5F2E6C74842EFFAD1 /* Pods-guanyu_Example-dummy.m */; };
+		53B11572219987F1006B82B9 /* Bnk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B11571219987F1006B82B9 /* Bnk.swift */; };
 		58B7105D75778C485344C69943FBF43F /* Pods-guanyu_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C403F4AC46E6980ECD49249782188779 /* Pods-guanyu_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BD05DBF51EEAFCF05D5C3C7FF485B58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		7FBDBFC6ABDDAEDB4136059A5F451384 /* guanyu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C914C08CD456D2DA278DECA914E34801 /* guanyu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,20 +47,21 @@
 		4738FCB0C9288C9E3FD0188FF05ABE7C /* Pods-guanyu_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-guanyu_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4C4B507E7F720FB70B626C75A6F9A1BF /* guanyu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = guanyu.modulemap; sourceTree = "<group>"; };
 		4FABCAA257AD92F164451888DA4811C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53B11571219987F1006B82B9 /* Bnk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bnk.swift; sourceTree = "<group>"; };
 		61535F68D415167C77586CB0FE551DAC /* Pods-guanyu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-guanyu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		62788032FE3F71AE13D0D17EDC58753E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6764DA383A34670E5E37F0D1D60DDA03 /* guanyu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "guanyu-prefix.pch"; sourceTree = "<group>"; };
-		68F507E037A0AA2E1F6DF7AB6FC3B8BE /* Pods_guanyu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_guanyu_Tests.framework; path = "Pods-guanyu_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E6D520C8C40FE3CDBF4CA43F305406B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		68F507E037A0AA2E1F6DF7AB6FC3B8BE /* Pods_guanyu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_guanyu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6D520C8C40FE3CDBF4CA43F305406B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		71EBB9223BEFF224A50BF26538655825 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DDBC5B1D1BBDC55154E3FDA643FBAAA /* Pods-guanyu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-guanyu_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8706B178311D01B5F2E6C74842EFFAD1 /* Pods-guanyu_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-guanyu_Example-dummy.m"; sourceTree = "<group>"; };
 		8E51B4E2DA22D33F982A6F1314B12EF9 /* Pods-guanyu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-guanyu_Tests.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9C18B83E783F5DE29538EC81A2190C49 /* Pods_guanyu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_guanyu_Example.framework; path = "Pods-guanyu_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C18B83E783F5DE29538EC81A2190C49 /* Pods_guanyu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_guanyu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB243B66C7350B7FE9F9EE1ABF9ABBFE /* Pods-guanyu_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-guanyu_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B1DDB11E1087342936421C61CCDC032F /* Pods-guanyu_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-guanyu_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B4AEE571CA5ECD2C0B1FACF3712272B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B4AEE571CA5ECD2C0B1FACF3712272B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B616A617634F3CA38E7C4A82401098C6 /* Pods-guanyu_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-guanyu_Example-resources.sh"; sourceTree = "<group>"; };
 		C1FD8893F0F753ADD107AA7D93FA1BFD /* guanyu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "guanyu-dummy.m"; sourceTree = "<group>"; };
 		C403F4AC46E6980ECD49249782188779 /* Pods-guanyu_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-guanyu_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -68,9 +70,9 @@
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DA953FF9375BC6EE3A7314D203A84C61 /* Pods-guanyu_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-guanyu_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E47879AA8728D226E009AE6E6F4A2FF4 /* Pods-guanyu_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-guanyu_Tests-resources.sh"; sourceTree = "<group>"; };
-		EB92CF4F8F981C84878722405A5D5C87 /* guanyu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = guanyu.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EB92CF4F8F981C84878722405A5D5C87 /* guanyu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = guanyu.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EBB6DC701678390C348A353465232ADB /* Pods-guanyu_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-guanyu_Example.modulemap"; sourceTree = "<group>"; };
-		F67BE6397D326574942822BE9D874B45 /* guanyu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = guanyu.framework; path = guanyu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F67BE6397D326574942822BE9D874B45 /* guanyu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = guanyu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB204CE3525573BF821D207BC4AB69D /* Pods-guanyu_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-guanyu_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,6 +150,22 @@
 			path = "Target Support Files/Pods-guanyu_Example";
 			sourceTree = "<group>";
 		};
+		53B1156F219987D5006B82B9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				53B11570219987E0006B82B9 /* Print */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		53B11570219987E0006B82B9 /* Print */ = {
+			isa = PBXGroup;
+			children = (
+				53B11571219987F1006B82B9 /* Bnk.swift */,
+			);
+			name = Print;
+			sourceTree = "<group>";
+		};
 		67AC6074838B3205276F682A2EB98786 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +188,7 @@
 		A27FBA4E4E3E82C107F58049366E8BC8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				53B1156F219987D5006B82B9 /* Classes */,
 				EB92CF4F8F981C84878722405A5D5C87 /* guanyu.podspec */,
 				B4AEE571CA5ECD2C0B1FACF3712272B4 /* LICENSE */,
 				6E6D520C8C40FE3CDBF4CA43F305406B /* README.md */,
@@ -386,6 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B11572219987F1006B82B9 /* Bnk.swift in Sources */,
 				1C90DB615B655516153C339ACC1A6AC4 /* guanyu-dummy.m in Sources */,
 				AAF2B2F345C875BD1B8C110C70EB3B10 /* ReplaceMe.swift in Sources */,
 			);
@@ -595,8 +615,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
