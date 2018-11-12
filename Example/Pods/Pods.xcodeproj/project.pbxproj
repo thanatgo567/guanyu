@@ -14,7 +14,6 @@
 		58B7105D75778C485344C69943FBF43F /* Pods-guanyu_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C403F4AC46E6980ECD49249782188779 /* Pods-guanyu_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BD05DBF51EEAFCF05D5C3C7FF485B58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		7FBDBFC6ABDDAEDB4136059A5F451384 /* guanyu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C914C08CD456D2DA278DECA914E34801 /* guanyu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAF2B2F345C875BD1B8C110C70EB3B10 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2705FD4AFF098D644A875891F184E06A /* ReplaceMe.swift */; };
 		AC548856A916ADEC3594DCB4BA84E98A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		B2E83432D5B1BEBFD68DC6550F62CC2F /* Pods-guanyu_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E46172462D35F4DF3506E5DBD21872 /* Pods-guanyu_Tests-dummy.m */; };
 		E889628A724C97A549BDA87E1FD4F3B4 /* Pods-guanyu_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01608C9B1C7DEC4539DC3F048F586F02 /* Pods-guanyu_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,7 +40,6 @@
 		01608C9B1C7DEC4539DC3F048F586F02 /* Pods-guanyu_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-guanyu_Example-umbrella.h"; sourceTree = "<group>"; };
 		0B1861D22CDDE21141F4E103E5E04256 /* guanyu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = guanyu.xcconfig; sourceTree = "<group>"; };
 		1676D597BF819F3496FCE55694450339 /* Pods-guanyu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-guanyu_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2705FD4AFF098D644A875891F184E06A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = guanyu/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		34B46BE828179215147B7D5B1A46B153 /* Pods-guanyu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-guanyu_Example.release.xcconfig"; sourceTree = "<group>"; };
 		36E46172462D35F4DF3506E5DBD21872 /* Pods-guanyu_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-guanyu_Tests-dummy.m"; sourceTree = "<group>"; };
 		4738FCB0C9288C9E3FD0188FF05ABE7C /* Pods-guanyu_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-guanyu_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -116,8 +114,7 @@
 		0BF4253AC90AB6708FBDA62292C4A093 /* guanyu */ = {
 			isa = PBXGroup;
 			children = (
-				53B1156F219987D5006B82B9 /* Classes */,
-				2705FD4AFF098D644A875891F184E06A /* ReplaceMe.swift */,
+				53B11571219987F1006B82B9 /* Bnk.swift */,
 				A27FBA4E4E3E82C107F58049366E8BC8 /* Pod */,
 				C86F23536A66DACD627E183DFA2172F9 /* Support Files */,
 			);
@@ -149,22 +146,6 @@
 			);
 			name = "Pods-guanyu_Example";
 			path = "Target Support Files/Pods-guanyu_Example";
-			sourceTree = "<group>";
-		};
-		53B1156F219987D5006B82B9 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				53B11570219987E0006B82B9 /* Print */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
-		53B11570219987E0006B82B9 /* Print */ = {
-			isa = PBXGroup;
-			children = (
-				53B11571219987F1006B82B9 /* Bnk.swift */,
-			);
-			name = Print;
 			sourceTree = "<group>";
 		};
 		67AC6074838B3205276F682A2EB98786 /* Development Pods */ = {
@@ -407,7 +388,6 @@
 			files = (
 				53B11572219987F1006B82B9 /* Bnk.swift in Sources */,
 				1C90DB615B655516153C339ACC1A6AC4 /* guanyu-dummy.m in Sources */,
-				AAF2B2F345C875BD1B8C110C70EB3B10 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
